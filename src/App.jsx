@@ -3,10 +3,10 @@ import bridge from '@vkontakte/vk-bridge';
 import { View, SplitLayout, SplitCol, ScreenSpinner } from '@vkontakte/vkui';
 import { useActiveVkuiLocation } from '@vkontakte/vk-mini-apps-router';
 
-import { Persik, Home } from './panels';
+import { Persik } from './panels/Persik.jsx';
 import { DEFAULT_VIEW_PANELS } from './routes';
 
-export const App = () => {
+const App = () => {
   const { panel: activePanel = DEFAULT_VIEW_PANELS.HOME } = useActiveVkuiLocation();
   const [fetchedUser, setUser] = useState();
   const [popout, setPopout] = useState(<ScreenSpinner />);
@@ -32,3 +32,5 @@ export const App = () => {
     </SplitLayout>
   );
 };
+
+export default App;

@@ -6,7 +6,7 @@ import '@vkontakte/vkui/dist/vkui.css';
 
 import { transformVKBridgeAdaptivity } from './utils';
 import { router } from './routes';
-import { App } from './App';
+import App from './App.jsx';
 
 export const AppConfig = () => {
   const vkBridgeAppearance = useAppearance() || undefined;
@@ -31,3 +31,5 @@ export const AppConfig = () => {
     </ConfigProvider>
   );
 };
+
+
