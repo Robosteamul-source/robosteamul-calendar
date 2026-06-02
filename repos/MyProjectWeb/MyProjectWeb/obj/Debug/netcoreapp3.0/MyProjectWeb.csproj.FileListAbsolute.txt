@@ -1,0 +1,11 @@
+C:\Users\Might\source\repos\MyProjectWeb\MyProjectWeb\bin\Debug\netcoreapp3.0\MyProjectWeb.exe
+C:\Users\Might\source\repos\MyProjectWeb\MyProjectWeb\bin\Debug\netcoreapp3.0\MyProjectWeb.deps.json
+C:\Users\Might\source\repos\MyProjectWeb\MyProjectWeb\bin\Debug\netcoreapp3.0\MyProjectWeb.runtimeconfig.json
+C:\Users\Might\source\repos\MyProjectWeb\MyProjectWeb\bin\Debug\netcoreapp3.0\MyProjectWeb.runtimeconfig.dev.json
+C:\Users\Might\source\repos\MyProjectWeb\MyProjectWeb\bin\Debug\netcoreapp3.0\MyProjectWeb.dll
+C:\Users\Might\source\repos\MyProjectWeb\MyProjectWeb\bin\Debug\netcoreapp3.0\MyProjectWeb.pdb
+C:\Users\Might\source\repos\MyProjectWeb\MyProjectWeb\obj\Debug\netcoreapp3.0\MyProjectWeb.csprojAssemblyReference.cache
+C:\Users\Might\source\repos\MyProjectWeb\MyProjectWeb\obj\Debug\netcoreapp3.0\MyProjectWeb.AssemblyInfoInputs.cache
+C:\Users\Might\source\repos\MyProjectWeb\MyProjectWeb\obj\Debug\netcoreapp3.0\MyProjectWeb.AssemblyInfo.cs
+C:\Users\Might\source\repos\MyProjectWeb\MyProjectWeb\obj\Debug\netcoreapp3.0\MyProjectWeb.dll
+C:\Users\Might\source\repos\MyProjectWeb\MyProjectWeb\obj\Debug\netcoreapp3.0\MyProjectWeb.pdb
