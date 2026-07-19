@@ -1,7 +1,25 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 function App() {
-  return (
+ const [now, setNow] = useState(new Date());
+
+  useEffect(() => {
+    const timer = setInterval(() => setNow(new Date()), 1000);
+    return () => clearInterval(timer);
+  }, []);
+
+  const formattedDate = now.toLocaleDateString('ru-RU', {
+    weekday: 'long',
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric'
+  });
+
+  const formattedTime = now.toLocaleTimeString('ru-RU', {
+    hour: '2-digit',
+    minute: '2-digit',
+    second: '2-digit'
+  }); return (
     <div style={{ padding: '24px', fontFamily: 'Arial', background: '#f5f7fb', minHeight: '100vh' }}>
       <div style={{
           background: 'linear-gradient(135deg, #111827 0%, #1f2937 100%)',
@@ -15,7 +33,12 @@ function App() {
           </p>
           <h2 style={{ fontSize: '22px', margin: '0 0 20px 0' }}>
             Здравствуйте, Анна!
-          </h2>
+          </h2><p style={{ fontSize: '13px', opacity: 0.65, margin: '0 0 20px 0', textTransform: 'capitalize' }}>
+            📅 {formattedDate} · 🕐 {formattedTime}
+          </p>
+
+
+
 
           <div style={{
             display: 'flex',
