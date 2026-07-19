@@ -30,7 +30,7 @@ function App() {
         <p>Прошёл модуль «Механизмы»</p>
       </div>
 
-      <button onClick={() => window.open('https://vk.me/write192923833', '_blank')} style={{
+      <button onClick={() => window.open('https://vk.me/writerobosteamul', '_blank')}
         width: '100%',
         padding: '16px',
         marginTop: '24px',
